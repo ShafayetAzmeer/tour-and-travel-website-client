@@ -7,7 +7,7 @@ const Heritages = () => {
     const [heritages, setHeritages] = useState([]);
 
       useEffect(()=> {
-        fetch('http://localhost:7000/heritages')
+        fetch('https://damp-lowlands-43379.herokuapp.com/heritages')
             .then(res => res.json())
             .then(data => setHeritages(data));
       }, [])  

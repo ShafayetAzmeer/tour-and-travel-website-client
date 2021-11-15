@@ -7,7 +7,7 @@ const Beaches = () => {
     const [beaches, setBeaches] = useState([]);
 
       useEffect(()=> {
-        fetch('http://localhost:7000/beaches')
+        fetch('https://damp-lowlands-43379.herokuapp.com/beaches')
             .then(res => res.json())
             .then(data => setBeaches(data));
       }, []) 

@@ -12,7 +12,7 @@ const AddNewService = () => {
         } = useForm();
       
         const onSubmit = (data) => {
-        fetch("http://localhost:7000/addNewService", {
+        fetch("https://damp-lowlands-43379.herokuapp.com/addNewService", {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify(data),

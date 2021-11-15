@@ -11,7 +11,7 @@ const PlaceOrder = () => {
     const {user} = useAuth();
 
     useEffect(() => {
-        fetch(`http://localhost:7000/spotDetail/${spotId}`)
+        fetch(`https://damp-lowlands-43379.herokuapp.com/spotDetail/${spotId}`)
           .then((res) => res.json())
           .then((data) => setPlaceOrder(data));
       }, []);
@@ -27,7 +27,7 @@ const PlaceOrder = () => {
        data.email = user.email;
        data.status = "Order Pending";
 
-       fetch("http://localhost:7000/confirmOrder", {
+       fetch("https://damp-lowlands-43379.herokuapp.com/confirmOrder", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(data),

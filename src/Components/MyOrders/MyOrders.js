@@ -10,7 +10,7 @@ const MyOrders = () => {
     const [control, setControl] = useState(false);
 
     useEffect(() => {
-        fetch(`http://localhost:7000/myOrders/${user.email}`)
+        fetch(`https://damp-lowlands-43379.herokuapp.com/myOrders/${user.email}`)
           .then((response) => response.json())
           .then((data) => setMyOrders(data));
       }, [control]);
@@ -20,7 +20,7 @@ const MyOrders = () => {
         const proceed = window.confirm('Are you sure, you want to cancel the order');
 
         if (proceed){
-          fetch(`http://localhost:7000/deleteOrder/${id}`, {
+          fetch(`https://damp-lowlands-43379.herokuapp.com/deleteOrder/${id}`, {
             method: "DELETE",
           })
             .then((res) => res.json())
