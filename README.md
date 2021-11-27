@@ -1,28 +1,25 @@
 # Tour and Travel
 
-For the first time in your city, we have come to change your experience and make it one dimensional advance. You can visit our website at [https://tourism-website-client-s-1e488.web.app/](https://tourism-website-client-s-1e488.web.app/)
+For the first time in your city, we have come to change your experience with a tourist guide online website. You can visit our website at [https://tourism-website-client-s-1e488.web.app/](https://tourism-website-client-s-1e488.web.app/)
 
 ## Our Exclusive Features
 
-### `Place Finding`
+### `Purpose`
 
-Here, you will find all the tourist spots and world heitage with their datails which will make you comfort to find your favourite places.
+This is a tourism-based website where tourists will find the most attractive spot collections in the world.
 
-### `Flight Management`
+### `Order Flexibility`
 
-Here, all the available flights are given to make you comfortable with your flight. 
+Any tourist will be able to cancel their orders at any time. That's our best part.
 
-### `Accomodation`
+### `Pending Order`
 
-All the nearest hotels are shown in a compendium for your convenience.
+At the time of order placement, every order will have the default order status pending. If one does not cancel his order then it will be confirmed as an approved status.
 
+### `Log in `
 
-### `Necessary Documents`
+Users have to be log in to order for any spots to visit.
 
-Here, you will be able to know which country needs Corona Negative Certificate for tourists.
+### `Beach and Heritage`
 
-### `Tour Guide`
-
-Here, you will get our dedicated tour guides who will provide you the best services.
-
-
+Here visitors will find a collection of the world's most exclusive beaches and heritages to travel.
